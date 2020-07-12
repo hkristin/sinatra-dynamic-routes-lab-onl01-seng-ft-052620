@@ -23,7 +23,7 @@ class App < Sinatra::Base
 
   get '/:operation/:number1/:number2' do
   when 'add' 
-    answer = (number1 + number2)
+    answer = (number1 + number2).to_s
     
   when 'subtract' 
     answer = 
