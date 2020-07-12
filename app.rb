@@ -22,6 +22,16 @@ class App < Sinatra::Base
     end
 
   get '/:operation/:number1/:number2' do
-  when 'add' = 
+  when 'add' 
+    answer = 
+    
+  when 'subtract' 
+    answer = 
+    
+  when 'multiply'
+    answer =
+    
+  when 'divide'
+    answer = 
 end
 end
