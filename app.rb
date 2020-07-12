@@ -33,5 +33,6 @@ class App < Sinatra::Base
     
   when 'divide'
     answer = 
+  end
 end
 end
